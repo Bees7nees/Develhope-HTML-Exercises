@@ -1,2 +1,2 @@
 # HTML
- My Develhope HTML directory for exercise and projects storage and merging.
+ In this repository I will be storing individual exercises and projects related to the HTML chapter of the Develhope FullStacks course.
