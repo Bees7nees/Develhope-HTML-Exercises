@@ -9,5 +9,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML Lesson</title>
   </head>
-  <body></body>
+  <body>
+    <button disabled>Disabled button</button>
+    <br>
+    <label for="0to100range">Choose between 0 and 100:</label>
+    <input type="range" name="0to100range" list="decimals" min="0" max="100">
+    <datalist id="decimals">
+      <option value="0"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30"></option>
+      <option value="40"></option>
+      <option value="50"></option>
+      <option value="60"></option>
+      <option value="70"></option>
+      <option value="80"></option>
+      <option value="90"></option>
+      <option value="100"></option>
+    </datalist>
+    <br>
+    <input type="checkbox" name="checkbox" checked>
+    <label for="checkbox">This is a checked checkbox</label>
+    <br>
+    <input type="date">
+  </body>
 </html>

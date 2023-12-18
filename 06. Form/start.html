@@ -14,6 +14,60 @@
       }
     </style>
   </head>
+  <body>
+    <h2>Registration Form</h2>
+    <form>
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
 
-  <body></body>
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <!-- Name and Lastname -->
+      <label for="name">Name and Lastname:</label>
+      <input type="text" id="name" name="name" required>
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <!-- Telephone Number -->
+      <label for="phone">Telephone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <!-- Plans -->
+      <label for="plans">Choose a Plan:</label>
+      <select id="plans" name="plans" required>
+        <option value="free">Free Plan</option>
+        <option value="plan1">Plan 1 - $10/month</option>
+        <option value="plan2">Plan 2 - $20/month</option>
+        <option value="plan3">Plan 3 - $30/month</option>
+      </select>
+
+      <!-- Pro Plan Checkbox -->
+      <label>
+        <input type="checkbox" id="proPlan" name="proPlan">
+        Pro Plan (additional 3 feet photos/month)
+      </label>
+
+      <!-- Credit Card Information -->
+      <label for="creditCard">Credit Card Number:</label>
+      <input type="text" id="creditCard" name="creditCard" required>
+
+      <label for="cvc">CVC:</label>
+      <input type="text" id="cvc" name="cvc" required>
+
+      <label for="expirationDate">Expiration Date:</label>
+      <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YYYY" required>
+
+      <!-- Billing Address -->
+      <label for="billingAddress">Billing Address:</label>
+      <textarea id="billingAddress" name="billingAddress" rows="4" required></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </body>
 </html>
