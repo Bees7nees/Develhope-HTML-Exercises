@@ -13,23 +13,7 @@
     <button type="button" disabled>Disabled button</button>
     <br>
     <label for="0to100range">This is a range input. Choose between 0 and 100:</label>
-    <input type="range" id="0to100range" name="0to100range" list="decimals" min="0" max="100">
-    <datalist id="decimals">
-      <option value="0"></option>
-      <option value="10"></option>
-      <option value="20"></option>
-      <option value="30"></option>
-      <option value="40"></option>
-      <option value="50"></option>
-      <option value="60"></option>
-      <option value="70"></option>
-      <option value="80"></option>
-      <option value="90"></option>
-      <option value="100"></option>
-    </datalist>
-    <!--En esta parte del ejercicio, no entiendo la parte de la consigna que dice:
-    "(the input type number should have the focus on the opening of the page)".
-    Quedo a la espera de feedback a ver qué me puede estar faltando por hacer.-->
+    <input type="number" id="0to100range" name="0to100range" min="0" max="100" autofocus>
     <br>
     <input type="checkbox" id="checkbox" name="checkbox" checked>
     <label for="checkbox">This is a checked checkbox</label>
